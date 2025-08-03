@@ -4,7 +4,7 @@ This repository contains a detailed mathematical derivation of the classical 4th
 
 
 ## 📘 Overview
----
+
 The Runge-Kutta methods are widely used numerical techniques for solving ordinary differential equations (ODEs). This project focuses on deriving the RK4 method coefficients by matching terms in the Taylor series expansion, forming a nonlinear system which is then solved symbolically.
 
 
