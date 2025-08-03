@@ -9,7 +9,7 @@ The Runge-Kutta methods are widely used numerical techniques for solving ordinar
 
 
 ## 🧮 Key Components
----
+
 - **Wolfram Mathematica Notebook**:  
   The derivation begins in a Wolfram Mathematica with step-by-step development of the RK4 method using Taylor expansion which lead to a system of non-linear equation of order 7.
 
@@ -21,7 +21,7 @@ The Runge-Kutta methods are widely used numerical techniques for solving ordinar
 
 
 ## 🧑‍💻 Technologies Used
----
+
 - Python libraries: SymPy, Pandas
 - Wolfram Mathematica notebook 📓
 - Jupyter Notebook 📓
