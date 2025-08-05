@@ -1,0 +1,7 @@
+Required softwares:
+* Wolfram Mathematica 
+* Jupyter notebook
+
+Required libraries:
+* Sympy
+* Pandas
