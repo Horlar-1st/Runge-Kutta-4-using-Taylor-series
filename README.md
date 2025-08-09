@@ -32,10 +32,10 @@ The Runge-Kutta methods are widely used numerical techniques for solving ordinar
 Runge-Kutta-4-using-Taylor-series/
 │
 ├── jupyter_notebook/
-│ └── newton_raphson_solver.ipynb # Symbolic solver using Newton-Raphson
+│ └── RK4.ipynb.                 # Symbolic solver using Newton-Raphson
 │
 ├── notebooks/
-│ └── RK4s_Derivation.nb # Main notebook with derivation steps
+│ └── RK4s_Derivation.nb         # Main notebook with derivation steps
 │
 ├── README.md
 └── requirements.txt
