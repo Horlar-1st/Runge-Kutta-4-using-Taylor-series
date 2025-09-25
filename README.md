@@ -34,7 +34,7 @@ Runge-Kutta-4-using-Taylor-series/
 ├── jupyter_notebook/
 │ └── RK4.ipynb.                 # Symbolic solver using Newton-Raphson
 │
-├── notebooks/
+├── mathematica_notebooks/
 │ └── RK4s_Derivation.nb         # Main notebook with derivation steps
 │
 ├── README.md
