@@ -11,7 +11,7 @@ The Runge-Kutta methods are widely used numerical techniques for solving ordinar
 ## 🧮 Key Components
 
 - **Wolfram Mathematica Notebook**:  
-  The derivation begins in a Wolfram Mathematica with step-by-step development of the RK4 method using Taylor expansion which lead to a system of non-linear equation of order 7.
+  The derivation begins in a Wolfram Mathematica with step-by-step development of the RK4 method using Taylor expansion which lead to a system of non-linear equation of order 7. Then, another solves the non-linear equation gotten using Newton-Raphson method for about 25 iterations to study its convergence. 
 
 - **System of Non-linear Equations**:  
   The Taylor series matching leads to a system of nonlinear equations that determine the RK4 coefficients.
