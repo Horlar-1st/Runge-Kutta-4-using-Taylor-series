@@ -1,6 +1,6 @@
 ### Runge-Kutta 4 Using Taylor Series
 ---
-This repository contains a detailed mathematical derivation of the classical 4th-order Runge-Kutta (RK4) method using Taylor series expansion. The derivation process starts from first principles and proceeds by solving a system of nonlinear equations using Python's `sympy` library and the Newton-Raphson method.
+This repository contains a detailed mathematical derivation of the classical 4th-order Runge-Kutta (RK4) method using Taylor series expansion. The derivation process starts from first principles and proceeds by solving a system of nonlinear equations using both Wolfram Mathematica and Python's `sympy` library and the Newton-Raphson method.
 
 
 ## 📘 Overview
