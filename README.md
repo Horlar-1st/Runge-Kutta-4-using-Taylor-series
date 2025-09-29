@@ -9,7 +9,7 @@ The Runge-Kutta methods are widely used numerical techniques for solving ordinar
 
 ## Newton-Raphson method
 
-The formula, `$x_k=x_{k-1}-[J(x_{k-1})]^{-1}F(x_{k-1})$`, updates the solution vector x by subtracting the inverse of the Jacobian J(x) multiplied by the function vector F(x) at the previous guess $x_{k-1}$. This process continues until the solution converges to a satisfactory level of accuracy. 
+The formula, `$x_k$ = $x_{k-1}$ - $[J(x_{k-1})]^{-1}$ $F(x_{k-1})$`, updates the solution vector x by subtracting the inverse of the Jacobian J(x) multiplied by the function vector F(x) at the previous guess $x_{k-1}$. This process continues until the solution converges to a satisfactory level of accuracy. 
 
 ## 🧮 Key Components
 
