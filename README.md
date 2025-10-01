@@ -11,6 +11,9 @@ The Runge-Kutta methods are widely used numerical techniques for solving ordinar
 
 The Runge-Kutta method is a class of numerical algorithms for approximating solutions to ordinary differential equations (ODEs) by taking multiple steps and evaluating the slope at various points within each step to achieve higher accuracy than simpler methods like Euler's. The most common version is the Fourth-Order Runge-Kutta (RK4) method, which provides a good balance of accuracy and computational efficiency by using a weighted average of four slope evaluations to estimate the solution at the next time step. 
 
+The Fourth-Order Runge-Kutta methods is given by
+$y_{n+1}=y_n+\frac{h}{6}(k_1+2k_2+2k_3+k_4)$,
+
 ## Newton-Raphson method
 
 The formula,$x_k=x_{k-1}-[J(x_{k-1})]^{-1}F(x_{k-1})$, updates the solution vector $x by subtracting the inverse of the Jacobian $J(x)$ multiplied by the function vector $F(x)$ at the previous guess $x_{k-1}$. This process continues until the solution converges to a satisfactory level of accuracy. 
