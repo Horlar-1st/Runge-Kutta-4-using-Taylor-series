@@ -15,7 +15,7 @@ The Fourth-Order Runge-Kutta methods is given by
 
 $y_{n+1}=y_n+\frac{h}{6}(k_1+2k_2+2k_3+k_4)$,
 
-where $k_1=f(x_i,y_i)$, $k_2=f(x_i+h/2,y_i+k_1/2)$,
+where $k_1=f(x_i,y_i)$, $k_2=f(x_i+h/2,y_i+jk_1/2)$, $k_3=f(x_i+h/2,y_i+hk_2/2)$ and $k_4=f(x_i+h,y_i+hk_3)$
 
 ## Newton-Raphson method
 
