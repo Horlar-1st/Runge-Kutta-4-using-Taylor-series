@@ -19,9 +19,27 @@ where $k_1=f(x_i,y_i)$, $k_2=f(x_i+\frac{h}{2},y_i+h\frac{k_1}{2})$, $k_3=f(x_i+
 
 ---
 
+## Taylor series
+
+A Taylor series is an expansion of a function into an infinite sum of terms, where each term is calculated from the function's derivatives at a single point.
+
+The general form of the Taylor series for a function \(f(x)\) centered at a point \(x=a\) is:
+
+\(f(x)=\sum _{n=0}^{\infty }\frac{f^{(n)}(a)}{n!}(x-a)^{n}.\)
+
+This can also be expanded as:
+
+\(f(x)=f(a)+\frac{f^{\prime }(a)}{1!}(x-a)+\frac{f^{\prime \prime }(a)}{2!}(x-a)^{2}+\frac{f^{\prime \prime \prime }(a)}{3!}(x-a)^{3}+\cdots \)
+
+---
+
 ## Newton-Raphson method
 
-The formula,$x_k=x_{k-1}-[J(x_{k-1})]^{-1}F(x_{k-1})$, updates the solution vector $x by subtracting the inverse of the Jacobian $J(x)$ multiplied by the function vector $F(x)$ at the previous guess $x_{k-1}$. This process continues until the solution converges to a satisfactory level of accuracy. 
+The formula,
+
+$x_k=x_{k-1}-[J(x_{k-1})]^{-1}F(x_{k-1})$,
+
+updates the solution vector `x` by subtracting the inverse of the Jacobian `J(x)` multiplied by the function vector `F(x)` at the previous guess $x_{k-1}$. This process continues until the solution converges to a satisfactory level of accuracy. 
 
 
 ## 🧮 Key Components
