@@ -43,13 +43,13 @@ The formula,
 
 $x_k=x_{k-1}-[J(x_{k-1})]^{-1}F(x_{k-1})$,
 
-updates the solution vector `x` by subtracting the inverse of the Jacobian `J(x)` multiplied by the function vector `F(x)` at the previous guess $x_{k-1}$. This process continues until the solution converges to a satisfactory level of accuracy. 
+updates the solution vector, `x`, by subtracting the inverse of the Jacobian Matrix, `J(x)`, multiplied by the function vector, `F(x)`, at the previous guess, $x_{k-1}$. This process continues until the solution converges to a satisfactory level of accuracy. 
 
 
 ## 🧮 Key Components
 
 - **Wolfram Mathematica Notebook**:  
-  The derivation begins in a Wolfram Mathematica with step-by-step development of the RK4 method using Taylor expansion which lead to a system of non-linear equation of order 7. Then, another solves the non-linear equation gotten using Newton-Raphson method for about 25 iterations to study its convergence. 
+  The derivation begins in a Wolfram Mathematica with step-by-step development of the RK4 method using Taylor expansion which lead to a system of non-linear equation of order 7. Then, another solves the non-linear equation gotten using Newton-Raphson method for about 25 iterations to study the convergence. 
 
 - **System of Non-linear Equations**:  
   The Taylor series matching leads to a system of nonlinear equations that determine the RK4 coefficients.
@@ -79,4 +79,5 @@ Runge-Kutta-4-using-Taylor-series/
 ├── README.md
 └── requirements.txt
 ```
+
 
