@@ -7,13 +7,13 @@ This repository contains a detailed mathematical derivation of the classical 4th
 
 The Runge-Kutta methods are widely used numerical techniques for solving ordinary differential equations (ODEs). This project focuses on deriving the RK4 method coefficients by matching terms in the Taylor series expansion, forming a nonlinear system which is then solved symbolically.
 
-## Runge-Kutta method
+## 🔢 Runge-Kutta method
 
 The Runge-Kutta method is a class of numerical algorithms for approximating solutions to ordinary differential equations (ODEs) by taking multiple steps and evaluating the slope at various points within each step to achieve higher accuracy than simpler methods like Euler's. The most common version is the Fourth-Order Runge-Kutta (RK4) method, which provides a good balance of accuracy and computational efficiency by using a weighted average of four slope evaluations to estimate the solution at the next time step. 
 
 The Fourth-Order Runge-Kutta methods for an ODE
 
-$y'=f(x,y)$
+$y'=f(x,y) \qquad y(x_0)=y_0$
 
 is given by
 
@@ -23,7 +23,7 @@ where $k_1=f(x_i,y_i)$, $k_2=f(x_i+\frac{h}{2},y_i+h\frac{k_1}{2})$, $k_3=f(x_i+
 
 ---
 
-## Taylor series
+## 🔢 Taylor series
 
 A Taylor series is an expansion of a function into an infinite sum of terms, where each term is calculated from the function's derivatives at a single point.
 
@@ -37,7 +37,7 @@ $f(x)=f(a)+\frac{f^{\prime}(a)}{1!}(x-a)+\frac{f^{\prime \prime }(a)}{2!}(x-a)^{
 
 ---
 
-## Newton-Raphson method
+## 🔢 Newton-Raphson method
 
 The formula,
 
