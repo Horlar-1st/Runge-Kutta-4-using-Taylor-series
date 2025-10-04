@@ -11,7 +11,11 @@ The Runge-Kutta methods are widely used numerical techniques for solving ordinar
 
 The Runge-Kutta method is a class of numerical algorithms for approximating solutions to ordinary differential equations (ODEs) by taking multiple steps and evaluating the slope at various points within each step to achieve higher accuracy than simpler methods like Euler's. The most common version is the Fourth-Order Runge-Kutta (RK4) method, which provides a good balance of accuracy and computational efficiency by using a weighted average of four slope evaluations to estimate the solution at the next time step. 
 
-The Fourth-Order Runge-Kutta methods is given by
+The Fourth-Order Runge-Kutta methods for an ODE
+
+$y'=f(x,y)$
+
+is given by
 
 $y_{n+1}=y_n+\frac{h}{6}(k_1+2k_2+2k_3+k_4)$,
 
@@ -23,13 +27,13 @@ where $k_1=f(x_i,y_i)$, $k_2=f(x_i+\frac{h}{2},y_i+h\frac{k_1}{2})$, $k_3=f(x_i+
 
 A Taylor series is an expansion of a function into an infinite sum of terms, where each term is calculated from the function's derivatives at a single point.
 
-The general form of the Taylor series for a function \(f(x)\) centered at a point \(x=a\) is:
+The general form of the Taylor series for a function `f(x)` centered at a point `x = a` is:
 
-\(f(x)=\sum _{n=0}^{\infty }\frac{f^{(n)}(a)}{n!}(x-a)^{n}.\)
+$f(x)=\sum _{n=0}^{\infty }\frac{f^{(n)}(a)}{n!}(x-a)^{n}.$
 
 This can also be expanded as:
 
-\(f(x)=f(a)+\frac{f^{\prime }(a)}{1!}(x-a)+\frac{f^{\prime \prime }(a)}{2!}(x-a)^{2}+\frac{f^{\prime \prime \prime }(a)}{3!}(x-a)^{3}+\cdots \)
+$f(x)=f(a)+\frac{f^{\prime}(a)}{1!}(x-a)+\frac{f^{\prime \prime }(a)}{2!}(x-a)^{2}+\frac{f^{\prime \prime \prime }(a)}{3!}(x-a)^{3}+\cdots $
 
 ---
 
