@@ -81,4 +81,4 @@ Runge-Kutta-4-using-Taylor-series/
 ```
 ## 🙌 Credits
 
-Developed by [Shoyombo Moshood O.](https://linkedin.com/in/shoyombo-moshood-582003126/) as a project work for an undergraduate project in Mathematics department. 
+Developed by [Shoyombo Moshood O.](https://linkedin.com/in/shoyombo-moshood-582003126/) as a project work inspired by an undergraduate student in Mathematics department, Lagos State University, Ojo.
