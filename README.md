@@ -79,5 +79,6 @@ Runge-Kutta-4-using-Taylor-series/
 ├── README.md
 └── requirements.txt
 ```
+## 🙌 Credits
 
-
+Developed by [Shoyombo Moshood O.](https://linkedin.com/in/shoyombo-moshood-582003126/) as a project work for an undergraduate project in Mathematics department. 
